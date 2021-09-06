@@ -48,9 +48,9 @@
     <div class="row g-2" >
       <div class="col-md-15">
         <h4 class="mb-3">Migration Details</h4>
-        <!--form class="needs-validation" method="post" action="details.php" novalidate-->
-        <form class="needs-validation" method="post" novalidate>
-         <!--form class="needs-validation" method="post" novalidate-->
+        <form class="needs-validation" method="post" action="details.php" novalidate>
+        <!--form class="needs-validation" method="post" novalidate-->
+         
           <div class="row g-3">
 
             <div class="col-md-4">
@@ -129,9 +129,9 @@
                 Directory path is required !
               </div>
               
-              <button class="btn btn-primary" id="verify" name="verify" onclick="checkFileExist()">verify..</button>
+              
               <hr class="my-2">
-              <!--button class="btn btn-primary" id="check" name="submit" type="submit" onclick="passval()">Continue..</button-->
+              <button class="btn btn-primary" id="check" name="submit" type="submit" onclick="passval()">Continue..</button>
       
                 </div>
             </div>
@@ -153,15 +153,6 @@
 
 
 
-<script>
-  
-        var url = document.getElementById("dir-name");
-        if (!fso.FolderExists(url)) {
-    alert("Folder does not exist!");}
-    else{
-    alert("Folder  exist!");}
-
-    </script>
 
       <script src="css-js/form-validation.js"></script>
   </body>
