@@ -1,0 +1,28 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+.box{
+    color: rgb(7, 7, 7);
+    padding: 0px 5px;
+    display: none;
+    margin-top: 0px;
+  }
+  .utility{ background: none; }
+  .template{ background: none; }
+  .oneclick{ background: none; }
+
+  #output {
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+}
